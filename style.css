@@ -1,0 +1,126 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala&display=swap');
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    text-decoration:none;
+}
+body{
+    font-size:100%;
+    background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
+}
+.cabecalho {
+    display: flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:space-around;
+    padding: 15px;
+    padding-bottom: 5px;
+}
+.imagemlogo {
+    height: 50px;
+}
+.navmenu {
+    display: flex;
+    gap: 32px;
+    color: #FFF2E7;
+    font-weight: 400;
+    font-family: 'Sarala', sans-serif;
+    font-size:18px;
+    padding-left: 150px;
+}
+.mainprincipal {
+    border-top: 0.4px solid #FFF2E7;
+    margin-bottom: 40px;
+}
+.section1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.div {
+    display: flex;
+    flex-direction:column;
+    gap: 32px;
+}
+.h1 {
+    font-family: 'Righteous', cursive;
+    font-size: 64px;
+    font-weight:400;
+    color: #FFF2E7;
+}
+.h2 {
+    font-family:'Sarala', sans-serif;
+    font-size: 15px;
+    color: #ECD6C4;
+    font-weight: 400;
+}
+.button {
+    Width: 185px;
+    Height: 51px;
+    border: none;
+    background-color: #ECD6C4;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius:20px;
+    color: black;
+    font-family:'Sarala', sans-serif;
+    font-weight:400;
+    font-size:23px;
+}
+.imagemrobo {
+    height:430px;
+}
+.section2 {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 13px;
+    margin-top:48px;
+    
+}
+.h3 {
+    border-top: 0.4px solid #FFF2E7;
+    padding-top:20px;
+    font-size:16px;
+    font-family:'Righteous', cursive;
+    font-weight:400;
+    color:#FFF2E7;
+}
+.p1 {
+    font-size:13px;
+    font-family:'Sarala', sans-serif;
+    font-weight:400;
+    color:#ECD6C4;
+}
+.footer {
+    padding: 25px;
+    border-top: 0.4px solid #FFF2E7;
+}
+.imagemrodape {
+    height: 45px;
+    display: block;
+    margin: auto;
+    
+}
+.button:hover {
+    background-color:rgba(190, 190, 190, 0.938);
+}
+.ancoracomunidade1:hover {
+    text-decoration: blue;
+    text-decoration:underline blue;
+}
+.ancoracomunidade2:hover {
+    
+    text-decoration:underline
+}
+.ancoracomunidade3:hover {
+    color:blue;
+    text-decoration:underline
+}
+.ancoracomunidade4:hover {
+    color:blue;
+    
+}
